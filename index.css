@@ -57,36 +57,48 @@ aside{
     gap: 16px;
 }
 
-.icon{
+.aside_header__search{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.round_button{
     padding: 0;
     border: none;
     background: none;
     width: 3em;
     height: 3em;
+    transition: 0.5s;
 }
 
-.icon:hover{
+.round_button:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.round_button:hover{
     cursor: pointer;
 }
 
-.close{
+.round_button--close{
     background: url("./image/close.svg") center no-repeat;
 }
 
-.search{
+.round_button--search{
     margin-left: auto;
     background: url("./image/search.svg") center no-repeat;
 }
 
-.call{
+.round_button--call{
     background: url("./image/call.svg") center no-repeat;
 }
 
-.chat{
+.round_button--chat{
     background: url("./image/chat.svg") center no-repeat;
 }
 
-.profile{
+.round_button--profile{
     background: url("./image/profile.svg") center no-repeat;
 }
 
